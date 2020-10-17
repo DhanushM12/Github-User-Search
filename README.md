@@ -1,3 +1,32 @@
+## Project Folder Structure
+
+```
+github-user-search
+├─ .git
+├─ .gitignore
+├─ package-lock.json
+├─ package.json
+├─ public
+│  ├─ favicon.ico
+│  ├─ index.html
+│  ├─ logo192.png
+│  ├─ logo512.png
+│  ├─ manifest.json
+│  └─ robots.txt
+├─ README.md
+└─ src
+   ├─ components
+   │  ├─ App.js
+   │  ├─ Display.js
+   │  └─ Profile.js
+   ├─ index.css
+   ├─ index.js
+   └─ logo.png
+
+```
+
+## React JS
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
