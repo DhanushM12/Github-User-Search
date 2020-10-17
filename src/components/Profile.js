@@ -34,7 +34,7 @@ const Profile = () => {
             <i className="search icon"></i>
             <input
               className="prompt"
-              placeholder="Search GitHub Username"
+              placeholder="GitHub Username"
               type="text"
               value={username}
               onChange={onChangeHandler}

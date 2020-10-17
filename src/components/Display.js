@@ -1,14 +1,16 @@
 import React from "react";
 
 const DisplayTable = ({ data, repositories }) => {
+  console.log(data);
+  console.log(repositories);
   return (
     <table className="ui celled table">
       <thead>
         <tr>
           <th>Name</th>
           <th>Avatar</th>
+          <th>Followers</th>
           <th>Location</th>
-          <th>Bio</th>
           <th>Repositories</th>
         </tr>
       </thead>
@@ -26,8 +28,8 @@ const DisplayTable = ({ data, repositories }) => {
               />
             )}
           </td>
+          <td>{data.followers}</td>
           <td>{data.location}</td>
-          <td>{data.bio}</td>
           <td>
             {repositories.map((repo) => (
               <div className="ui relaxed divided list" key={repo.name}>
